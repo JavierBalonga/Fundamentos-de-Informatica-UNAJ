@@ -1,8 +1,9 @@
 ![alt text](https://www.unaj.edu.ar/wp-content/uploads/2016/06/logo-unaj-2016-01.jpg)
 # Fundamentos de Informatica
 
+## Practica 1
 ---
-### Practica 1
+### PARTE I: Aspectos Conceptuales
 ##### Ejercicio 1: ¿Qué diferencias hay entre un lenguaje de máquina y uno de alto nivel?
 El lenguaje de maquina o lenguajes ensambladores(asembler) es el lenguaje que la maquina puede interpretar y este varia segun el hardware que se use, dado que segun el procesador que l ejecute las instrucciones del mismo varian.
 El lenguaje de alto nivel se caracteriza por expresarse de una manera adecuada para ser leida por una persona.
@@ -53,14 +54,14 @@ Type "help", "copyright", "credits" or "license" for more information.
 ##### Ejercicio 10: Ejecute las siguientes instrucciones:
 ###### a) Compare los resultados obtenidos de 2 y 3, de 4 y 5, de 6 y 7.
 ```powershell
->>> print (“hola Fundamentos”)
+>>> print ("hola Fundamentos")
 hola Fundamentos
 ```
 
 ```powershell
 >>> print (2 + 3)
 5
->>> print (“2” + ”3”)
+>>> print ("2" + "3")
 23
 ```
 La ejecucion de la instruccion 2 se puede interpretar de la siguiente manera:
@@ -82,16 +83,16 @@ Multiplicar `2` y `3`,Sumar `5`, y luego mostrarlo por consola, el resultado es 
 Por lo que queda demostrado que las reglas de precedencia funcionan haciendo que se ejecute primero lo que esta adentro de los parentesis `()`.
 
 ```powershell
->>> print (3 * ”Hola”)
+>>> print (3 * "Hola")
 HolaHolaHola
->>> print (“Hola” * 3)
+>>> print ("Hola" * 3)
 HolaHolaHola
 ```
 El resultado es el mismo, (el de concatenar 3 veces la misma cadena), la unica diferencia es la de cambiar de lugar los operandos pero, al mejor sentido de la propiedad multiplicacion en matematica, el orden de los factores no altera el producto.
 
 ###### b) Qué pasó en las consignas 8 y 9?
 ```powershell
->>> PRINT (“hola”)
+>>> PRINT ("hola")
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 NameError: name 'PRINT' is not defined
@@ -109,7 +110,7 @@ En la instruccion 9 el error esta dado porque no hay nada declarado con la plaba
 
 ##### Ejercicio 11: Ejecute las siguientes instrucciones:
 ```powershell
->>> “hola Fundamentos”
+>>> "hola Fundamentos"
 'hola Fundamentos'
 >>> 2+3
 5
@@ -157,8 +158,8 @@ Andubieron las instrucciones pero las que tienen error detienen la ejecucion
 ### Desde Geany
 ##### Ejercicio 13: Genere un nuevo archivo y tipee las siguientes instrucciones:
 ```Python
-print “Hola”
-print “ Vamos a trabajar un rato con Geany”
+print "Hola"
+print " Vamos a trabajar un rato con Geany"
 ```
 ###### a) Intente ejecutar este código. ¿Pudo hacerlo?
 No, la funcion print me exigue que pasa los **parametros** dentro de paraentesis `()`
@@ -198,3 +199,5 @@ Python es un software libre debido a tiene una **licencia de software libre**, e
 
 ###### e) Python es un lenguaje de alto nivel
 En Python los algoritmos se expresan de una manera **adecuada a la capacidad cognitiva humana**, por lo que entra dentro de las caracteristicas de **un lenguaje de alto nivel**.
+
+[GitHub personal - Unidad I - Practica 1](https://github.com/JavierBalonga/Fundamentos-de-Informatica-UNAJ/tree/master/Unidad%20I)
