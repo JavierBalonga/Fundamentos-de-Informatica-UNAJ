@@ -200,5 +200,5 @@ Python es un software libre debido a tiene una **licencia de software libre**, e
 ###### e) Python es un lenguaje de alto nivel
 En Python los algoritmos se expresan de una manera **adecuada a la capacidad cognitiva humana**, por lo que entra dentro de las caracteristicas de **un lenguaje de alto nivel**.
 
-[GitHub personal](https://github.com/JavierBalonga/Fundamentos-de-Informatica-UNAJ/)
+[GitHub personal](https://github.com/JavierBalonga/Fundamentos-de-Informatica-UNAJ/)  
 [Siguiente Unidad](https://github.com/JavierBalonga/Fundamentos-de-Informatica-UNAJ/tree/master/Unidad%20II)

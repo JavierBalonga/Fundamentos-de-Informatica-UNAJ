@@ -615,15 +615,15 @@ print ('hola')
 ```
 ```powershell
 ```
-- Que hace?:
+- Que hace?:  
     imprime `hola` en la consola
-- Variables:
+- Variables:  
     No hay
-- Valores
+- Valores  
     `'hola'`
-- Operadores
+- Operadores  
     No hay
-- Sentencias
+- Sentencias  
     `>>> print`
     `>>> ('hola')`
 
@@ -635,15 +635,15 @@ print (2)
 ```powershell
 2
 ```
-- Que hace?:
+- Que hace?:  
     Imprime el valor `2`
-- Variables:
+- Variables:  
     No hay
-- Valores
+- Valores  
     `2`
-- Operadores
+- Operadores  
     No hay
-- Sentencias
+- Sentencias  
     `>>> print (2)`
 
 ###### c)
@@ -655,15 +655,15 @@ print (nombre)
 Ingrese un nombreJavier
 Javier
 ```
-- Que hace?:
+- Que hace?:  
     Solicita un valor con el prompt`'Ingrese un nombre'` y lo imprime por consola
-- Variables:
+- Variables:  
     `nombre`
-- Valores
+- Valores  
     `'Ingrese un nombre'`
-- Operadores
+- Operadores  
     No hay
-- Sentencias
+- Sentencias  
     `>>> nombre=input('Ingrese un nombre')`
     `>>> print (nombre)`
 
@@ -676,15 +676,15 @@ print (edad)
 Ingrese la edad26
 26
 ```
-- Que hace?:
+- Que hace?:  
     Solicita un valor con el prompt`'Ingrese la edad'` y lo imprime por consola
-- Variables:
+- Variables:  
     `edad`
-- Valores
+- Valores  
     `'Ingrese la edad'`
-- Operadores
+- Operadores  
     
-- Sentencias
+- Sentencias  
     `>>> edad=input('Ingrese la edad')`
     `>>> print (edad)`
 
@@ -695,15 +695,15 @@ print (2*3)
 ```powershell
 6
 ```
-- Que hace?:
+- Que hace?:  
     multiplica los valores `2` y `3` y lo imprime en la consola
-- Variables:
+- Variables:  
     No hay
-- Valores
+- Valores  
     `2`, `3`
-- Operadores
+- Operadores  
     `*`
-- Sentencias
+- Sentencias  
     `>>> print (2*3)`
 
 ###### f)
@@ -713,15 +713,15 @@ print (4%2)
 ```powershell
 0
 ```
-- Que hace?:
+- Que hace?:  
     Calcula el resto de `4` entre `2` y lo imprime en la consola
-- Variables:
+- Variables:  
     No hay
-- Valores
+- Valores  
     `4`, `2`
-- Operadores
+- Operadores  
     `%`
-- Sentencias
+- Sentencias  
     `>>> print (4%2)`
 
 ###### g)
@@ -735,15 +735,15 @@ Ingrese un número7
 Ingrese otro número3
 73
 ```
-- Que hace?:
+- Que hace?:  
     Solicita dos valores con los prompt`'Ingrese un número'`, `'Ingrese otro número'`, los concatena y los imprime por consola
-- Variables:
+- Variables:  
     `num1`, `num2`
-- Valores
+- Valores  
     `'Ingrese un número'`, `'Ingrese otro número'`
-- Operadores
+- Operadores  
     `+`
-- Sentencias
+- Sentencias  
     `>>> num1=input('Ingrese un número')`
     `>>> num2=input('Ingrese otro número')`
     `>>> print (num1+num2)`
@@ -759,15 +759,15 @@ Ingrese un número7
 Ingrese otro número3
 10
 ```
-- Que hace?:
+- Que hace?:  
     Solicita dos valores con los prompt`'Ingrese un número'`, `'Ingrese otro número'`, los convierte a enteros, los suma y los imprime por consola
-- Variables:
+- Variables:  
     `num1`, `num2`
-- Valores
+- Valores  
     `'Ingrese un número'`, `'Ingrese otro número'`
-- Operadores
+- Operadores  
     `+`
-- Sentencias
+- Sentencias  
     `>>> num1=int(input('Ingrese un número'))`
     `>>> num2=int(input('Ingrese otro número'))`
     `>>> print (num1+num2)`
@@ -861,5 +861,5 @@ Usuario: 'javierb'
 Dominio: 'gmail.com'
 ```
 
-[GitHub personal](https://github.com/JavierBalonga/Fundamentos-de-Informatica-UNAJ/)
+[GitHub personal](https://github.com/JavierBalonga/Fundamentos-de-Informatica-UNAJ/)  
 [Siguiente Unidad](https://github.com/JavierBalonga/Fundamentos-de-Informatica-UNAJ/tree/master/Unidad%20III)

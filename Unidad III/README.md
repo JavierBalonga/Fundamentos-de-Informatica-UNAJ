@@ -13,17 +13,18 @@ La sentencia `return` sirve para devolver un valor desde la funcion
 ##### d) ¿Qué diferencia hay entre la definición y la invocación de una función?
 Cuando uno la define, basicamente es la declaracion de la misma al momento de ejecutarse estas instrucciones las mismas no se ejecutan, recien se va a ejecutar cuando se llame esta funcion
 ##### e) ¿Qué son los parámetros formales y para qué sirven? Ejemplifique.
-Los parametros formales son los que se declaran cuando se declara la funcion, y son los que por asi decir resiven los valores de los parametros reales
+Los parametros formales son los que se declaran cuando se declara la funcion, y son los que por asi decir resiven los valores de los parametros reales, ejemplificacion al final de la parte I
 ##### f) ¿Qué son los parámetros reales y para qué sirven? Ejemplifique.
-Los parametros reales son los que se ingresan en la funcion al llamarle, y su valor se le es pasado a los parametros formales durante la ejecucion de la funcion
+Los parametros reales son los que se ingresan en la funcion al llamarle, y su valor se le es pasado a los parametros formales durante la ejecucion de la funcion, ejemplificacion al final de la parte I
 ##### g) ¿Qué es el cuerpo de una función? Ejemplifique.
-El cuerpo de una funcion es el bloque que contiene la seri de instrucciones que la misma ejecuta
+El cuerpo de una funcion es el bloque que contiene la seri de instrucciones que la misma ejecuta, ejemplificacion al final de la parte I
 ##### h) ¿Existen funciones sin parámetros o argumentos?
 Si, algunas funciones no requieren de parametros para ser ejecutadas
 ##### i) ¿Puede usar una letra o un número como parámetro formal? ¿Y cómo parámetros real?
 Como parametro real asi como con las variables las mismas no pueden empezar con un numero, pero si pueden incluir un numero despues del primer caracter, y en los parametros reales se le deben pasar valores, osea numeros, cadenas, etc
 ##### j) ¿Puedo tener una cantidad distinta de parámetros formales que reales en una función?
 Si, se pueden pasar menos parametros reales que los parametros formales que tiene una funcion, por ejemplo podria dejarle definidos valores por default a parametros formales para que si a estos no les son pasados parametros reales tomen los default
+**Ejemplificacion:**
 ```Py
 #Declaracion de la funcion
 def myFuncion(parametroFormal1, parametroFormal2 = "valor default"):
