@@ -141,7 +141,8 @@ el area del tirangulo es:
 7.5
 ```
 
-##### Ejercicio 7: Pedir el diámetro de un círculo y calcular su área y perímetro. Recordar que Perímetro = π * Diámetro , Área = π * radio2. Por último, el diámetro = 2 * radio
+##### Ejercicio 7: Pedir el diámetro de un círculo y calcular su área y perímetro.  
+##### Recordar que Perímetro = π * Diámetro , Área = π * radio2. Por último, el diámetro = 2 * radio
 ```py
     print("ingrese el diametro de una circunferencia para calcular su area y su perimetro")
     try:
@@ -191,7 +192,8 @@ resto:
 2.0
 ```
 
-##### Ejercicio 9: Pedir alto, ancho y largo de una pileta. Calcular el volumen y la cantidad de litros que tiene. (saber que 1000 cm3=1 litro)
+##### Ejercicio 9: Pedir alto, ancho y largo de una pileta. Calcular el volumen y la cantidad de litros que tiene.  
+##### (saber que 1000 cm3=1 litro)
 ```py
     print("ingrese alto, ancho y largo de una pileta para calcular su volumen")
     try:
@@ -481,7 +483,7 @@ Ejercicio 22
 - Guerra del Peloponeso 431 a.C
 - Revolución de Mayo 1810 d.C
 - Llegada de los españoles a América 1492 d.C
-- Comienzo de la construcción de la gran Muralla China 214 a.C
+- Comienzo de la construcción de la gran Muralla China 214 a.C  
 Yo elegi las listas, pero tambien con tuplas hubiera andado
 ```Py
     lista=[["Guerra del Peloponeso", 431, "a.C"],
@@ -501,8 +503,8 @@ Yo elegi las listas, pero tambien con tuplas hubiera andado
 ```
 
 ### PARTE III Datos, Variables y Tipos de Datos:
-##### Ejercicio 24: Escriba un programa que reciba un nombre ingresado por el usuario e imprima en la pantalla un saludo.
-##### En pantalla debe aparecer "¡Hola xxx!"
+##### Ejercicio 24: Escriba un programa que reciba un nombre ingresado por el usuario e imprima en la pantalla un saludo.  
+##### En pantalla debe aparecer "¡Hola xxx!"  
 ##### ¿Hizo uso de variables? ¿Cuáles?
 Si, `nombre`, que es donde almaceno el nombre del usuario
 ##### ¿Hizo uso de valores? ¿Cuáles?
@@ -521,8 +523,8 @@ Tu: --> Javier
 ¡Hola Javier!
 ```
 
-##### Ejercicio 25: Escriba un programa que reciba un nombre y una edad ingresado por el usuario e imprima en la pantalla un texto con la información ingresada por el usuario.
-##### En pantalla debe aparecer " Su nombre es xxx y su edad es xx"
+##### Ejercicio 25: Escriba un programa que reciba un nombre y una edad ingresado por el usuario e imprima en la pantalla un texto con la información ingresada por el usuario.  
+##### En pantalla debe aparecer " Su nombre es xxx y su edad es xx"  
 ##### ¿Hizo uso de variables? ¿Cuáles?
 Si, `nombre` y `edad`
 ##### ¿Hizo uso de valores? ¿Cuáles?
@@ -609,14 +611,12 @@ aaa
 ##### Ejercicio 27 : Ejecute el siguiente código y diga qué hace y qué elementos de programación se utilizan: variables, valores, operadores y sentencias.
 ###### a)
 ```Py
-print
-
-('hola')
+print ('hola')
 ```
 ```powershell
 ```
 - Que hace?:
-    Este codigo no hace nada, porque la la funcion `print` esta mal usada 
+    imprime `hola` en la consola
 - Variables:
     No hay
 - Valores
@@ -624,8 +624,8 @@ print
 - Operadores
     No hay
 - Sentencias
-    >>> `print`
-    >>> `('hola')`
+    `>>> print`
+    `>>> ('hola')`
 
 
 ###### b)
@@ -644,7 +644,7 @@ print (2)
 - Operadores
     No hay
 - Sentencias
-    >>> `print (2)`
+    `>>> print (2)`
 
 ###### c)
 ```Py
@@ -652,7 +652,7 @@ nombre=input('Ingrese un nombre')
 print (nombre)
 ```
 ```powershell
-Ingr ese un nombreJavier
+Ingrese un nombreJavier
 Javier
 ```
 - Que hace?:
@@ -664,8 +664,8 @@ Javier
 - Operadores
     No hay
 - Sentencias
-    >>> `nombre=input('Ingrese un nombre')`
-    >>> `print (nombre)`
+    `>>> nombre=input('Ingrese un nombre')`
+    `>>> print (nombre)`
 
 ###### d)
 ```Py
@@ -685,8 +685,8 @@ Ingrese la edad26
 - Operadores
     
 - Sentencias
-    >>> `edad=input('Ingrese laedad')`
-    >>> `print (edad)`
+    `>>> edad=input('Ingrese la edad')`
+    `>>> print (edad)`
 
 ###### e)
 ```Py
@@ -704,7 +704,7 @@ print (2*3)
 - Operadores
     `*`
 - Sentencias
-    >>> `print (2*3)`
+    `>>> print (2*3)`
 
 ###### f)
 ```Py
@@ -722,7 +722,7 @@ print (4%2)
 - Operadores
     `%`
 - Sentencias
-    >>> `print (4%2)`
+    `>>> print (4%2)`
 
 ###### g)
 ```Py
@@ -744,9 +744,9 @@ Ingrese otro número3
 - Operadores
     `+`
 - Sentencias
-    >>> `num1=input('Ingrese un número')`
-    >>> `num2=input('Ingrese otro número')`
-    >>> `print (num1+num2)`
+    `>>> num1=input('Ingrese un número')`
+    `>>> num2=input('Ingrese otro número')`
+    `>>> print (num1+num2)`
 
 ###### h)
 ```Py
@@ -768,21 +768,22 @@ Ingrese otro número3
 - Operadores
     `+`
 - Sentencias
-    >>> `num1=int(input('Ingrese un número'))`
-    >>> `num2=int(input('Ingrese otro número'))`
-    >>> `print (num1+num2)`
+    `>>> num1=int(input('Ingrese un número'))`
+    `>>> num2=int(input('Ingrese otro número'))`
+    `>>> print (num1+num2)`
 
 ##### Ejercicio 28: Asígnele a las variables num1 y num2 los distintos valores indicados en la tabla.
 ##### Realice las siguientes cuentas con las operaciones indicadas almacenando el resultado en la variable resul.
 #####  En la tabla que aparece a continuación coloque los resultados obtenidos y justifíquelo.
 
-        Valor de num1   Valor de num2   Operación   Valor de resul                  Justificación
-    1   5               2               //          2                               se divide num1 por num2 y se los redondea para abajo
-    2   7.2             9.8             *           70.56                           multiplica los operandos
-    3   7               3.1             -           3.9                             resta los operandos
-    4   10.45           7               +           17.45                           suma los operandos
-    5   "republica "    "argentina"     +           "republica argentina"           como son cadenas concatena los operandos
-    6   "argentina "    3               *           "argentina argentina argentina" aca se concatena las veces de num2 la cadena original
+X|Valor de num1|Valor de num2|Operación|Valor de resul|Justificación
+-|-------------|-------------|---------|--------------|-------------
+1|5|2|`//`|2|se divide num1 por num2 y se los redondea para abajo
+2|7.2|9.8|`*`|70.56|multiplica los operandos
+3|7|3.1|`-`|3.9|resta los operandos
+4|10.45|7|`+`|17.45|suma los operandos
+5|"republica "|"argentina"|`+`|"republica argentina"|como son cadenas concatena los operandos
+6|"argentina "|3|`*`|"argentina argentina argentina"|aca se concatena las veces de num2 la cadena original
 
 ### PARTE IV: Aplicando funciones y métodos a los tipos de datos
 ##### Ejercicio 29: Si se tiene las variables n1=124.25 y n2= "33.40". Realizar las conversiones necesarias para saber la división entera entre ellos y el resto.
@@ -860,4 +861,5 @@ Usuario: 'javierb'
 Dominio: 'gmail.com'
 ```
 
-[GitHub personal - Unidad I - Practica 1](https://github.com/JavierBalonga/Fundamentos-de-Informatica-UNAJ/tree/master/Unidad%20I)
+[GitHub personal](https://github.com/JavierBalonga/Fundamentos-de-Informatica-UNAJ/)
+[Siguiente Unidad](https://github.com/JavierBalonga/Fundamentos-de-Informatica-UNAJ/tree/master/Unidad%20III)
