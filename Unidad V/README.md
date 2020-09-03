@@ -2,6 +2,7 @@
 # Fundamentos de Informática
 
 ## Practica 5
+
 ---
 ### Parte I : Aspectos Conceptuales
 #### a) ¿Que estructuras de control conoce? ¿En qué se diferencian?
@@ -11,8 +12,9 @@ Un Bucle `while` es la iteracion de un bloque de instrucciones **mientras** se s
 Y un bucle `for` es la iteracion de un bloque de instrucciones para todos los elementos de una estructura de datos iterable.
 #### b) ¿Qué tipo de sentencias puedo escribir dentro del cuerpo de una estructura de control?
 Las que quiera mientras siga respetando la forma de escritura de python, y tenga los recaudos para no meterme en una iteracion infinita.
-#### c) ¿Se puede escribir una estructura de control dentro de otra?
-Si, pero hay que tener los recudos suficientes para no meterse en un codigo demasiado lento o que pueda tener iteraciones infinitas.
+#### c) ¿Se puede escribir una estructura de control dentro de otra?  
+Si, pero hay que tener los recaudos suficientes para no meterse en un codigo demasiado lento o que pueda tener iteraciones infinitas.
+
 ---
 ### Parte II: Ahora practicamos
 #### Ejercicio 1: Escribir un programa que muestre la tabla de multiplicar de un número introducido por teclado por el usuario.
@@ -219,6 +221,12 @@ for u in Usuarios:
     print(texto)
 ```
 ```powershell
+Ingrese nombre, apellido y patente o use 'AAA' para finalizar
+Hagalo con la siguiente estructura:
+ --> Nombre,Apellido,Patente
+ --> javier,balonga,rsw666
+ --> gabriel,perez,ajk999
+ --> AAA
        Nombre       |      Apellido      |      Patente       |      Impuesto
 --------------------|--------------------|--------------------|--------------------
        Javier       |      Balonga       |       RSW666       |       Exento
@@ -229,13 +237,14 @@ for u in Usuarios:
 codigosPostales = [
     [1160,'Buenos Aires'], [1161,'Buenos Aires'], [1439,'Tapiales'], [1607,'Villa Adelina'], [1611,'Don Torcuato'],
     [1625,'Belen de Escobar'], [1629,'Pilar (Buenos Aires)'], [1633,'Fatima (Buenos Aires)'], [1638,'Vicente Lopez'],
-    [1640,'Martinez (Buenos Aires)'], [1642,'San Isidro (Buenos Aires)'], [1643,'Beccar'], [1664,'San Miguel (Buenos Aires)'],
-    [1704,'Ramos Mejia'], [1708,'Moron (Buenos Aires)'], [1712,'Castelar'], [1723,'Mariano Acosta (Buenos Aires)'],
-    [1727,'Marcos Paz (Buenos Aires)'], [1761,'Pontevedra (Buenos Aires)'], [1804,'Ezeiza'], [1806,'Tristan Suarez'],
-    [1812,'Tristan Suarez'], [1842,'Esteban Echeverria'], [1875,'Wilde (Buenos Aires)'], [1878,'Quilmes'], [1886,'Ranelagh'],
-    [1887,'Florencio Varela'], [1889,'Ranelagh'], [1894,'Pereyra'], [1900,'La Plata'], [1925,'Gonnet (La Plata)'],
-    [2705,'Rojas (Argentina)'], [2720,'Colon'], [6015,'General Viamonte'], [6455,'Carlos Tejedor'], [6612,'Suipacha (Buenos Aires)'],
-    [6700,'Jose Maria Jauregui'], [6720,'San Andres de Giles'], [7000,'Tandil'], [7130,'Ciudad de Chascomus'], [7167,'Pinamar'],
+    [1640,'Martinez (Buenos Aires)'], [1642,'San Isidro (Buenos Aires)'], [1643,'Beccar'],
+    [1664,'San Miguel (Buenos Aires)'], [1704,'Ramos Mejia'], [1708,'Moron (Buenos Aires)'], [1712,'Castelar'],
+    [1723,'Mariano Acosta (Buenos Aires)'], [1727,'Marcos Paz (Buenos Aires)'], [1761,'Pontevedra (Buenos Aires)'],
+    [1804,'Ezeiza'], [1806,'Tristan Suarez'], [1812,'Tristan Suarez'], [1842,'Esteban Echeverria'],
+    [1875,'Wilde (Buenos Aires)'], [1878,'Quilmes'], [1886,'Ranelagh'], [1887,'Florencio Varela'], [1889,'Ranelagh'],
+    [1894,'Pereyra'], [1900,'La Plata'], [1925,'Gonnet (La Plata)'], [2705,'Rojas (Argentina)'], [2720,'Colon'],
+    [6015,'General Viamonte'], [6455,'Carlos Tejedor'], [6612,'Suipacha (Buenos Aires)'], [6700,'Jose Maria Jauregui'],
+    [6720,'San Andres de Giles'], [7000,'Tandil'], [7130,'Ciudad de Chascomus'], [7167,'Pinamar'],
     [7414,'Laprida (provincia de Buenos Aires)'], [7521,'San Cayetano (Buenos Aires)'], [7600,'Sierra de los Padres'],
     [8000,'Bahia Blanca'], [8153,'Monte Hermoso']
 ]
@@ -295,7 +304,7 @@ multiplosDe(2, 100)
 ```
 ```powershell
 Los multiplos de 2 entre 2 y 100 son:
-2   4   6   8   10  12  14  16  18  20  22  24  26  28  30  32  34  36  38  40  42  44  46  48  50  52  54  56  58  60  62  64  66  68  70  72  74  76  78  80  82  84  86  88  90  92  94  96  98  10  01  02
+2   4   6   8   10  12  14  16  18  20  22  24  26  28  30  32  34  36  38  40  42  44  46  48  50  52  54  56  58  60  62  64  66  68  70  72  74  76  78  80  82  84  86  88  90  92  94  96  98  100 102
 ```
 ---
 ### Parte III: Ahora practicamos con Colecciones
@@ -599,11 +608,11 @@ Son 7325.0 Dolares
 ```
 ##### Utilizar las funciones definidas anteriormente para construir un programa que permita elegir
 ##### una opción del siguiente menú:
-> 1. Ver el promedio de los números
-> 2. Ver la suma de los números
-> 3. Ver la cantidad de números
-> 4. Ver el número máximo
-> 5. Ver el número mínimo
+> 1. Ver el promedio de los números  
+> 2. Ver la suma de los números  
+> 3. Ver la cantidad de números  
+> 4. Ver el número máximo  
+> 5. Ver el número mínimo  
 ```py
     print("*********     Menu     **********")
     print("1. Ingreso de numeros")
