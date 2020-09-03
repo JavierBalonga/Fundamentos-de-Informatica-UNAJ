@@ -1,9 +1,9 @@
 ![alt text](https://www.unaj.edu.ar/wp-content/uploads/2016/06/logo-unaj-2016-01.jpg)
-# Fundamentos de Informatica
+# Fundamentos de Informática
 
 ## Practica 3
 ---
-### PARTE I : Aspectos Conceptuales
+### PARTE I: Aspectos Conceptuales
 ##### a) ¿Qué ventajas tiene la utilización de funciones?
 Las funciones tienen la ventaja de poder particionar el codigo en abstaracciones de funcionalidad, por lo que si hay una parte de mi algoritmo que se vuelve repetitiva o se ve que puede ser aplicable en muchas situaciones se la puede separar a una funcion.
 ##### b) ¿Hay algún cuidado en el orden en el que se pasan los parámetros a una función?
@@ -21,7 +21,7 @@ El cuerpo de una funcion es el bloque que contiene la seri de instrucciones que 
 ##### h) ¿Existen funciones sin parámetros o argumentos?
 Si, algunas funciones no requieren de parametros para ser ejecutadas
 ##### i) ¿Puede usar una letra o un número como parámetro formal? ¿Y cómo parámetros real?
-Como parametro real asi como con las variables las mismas no pueden empezar con un numero, pero si pueden incluir un numero despues del primer caracter, y en los parametros reales se le deben pasar valores, osea numeros, cadenas, etc
+Como parametro real asi como con las variables las mismas no pueden empezar con un número, pero si pueden incluir un número despues del primer caracter, y en los parametros reales se le deben pasar valores, osea números, cadenas, etc
 ##### j) ¿Puedo tener una cantidad distinta de parámetros formales que reales en una función?
 Si, se pueden pasar menos parametros reales que los parametros formales que tiene una funcion, por ejemplo podria dejarle definidos valores por default a parametros formales para que si a estos no les son pasados parametros reales tomen los default
 **Ejemplificacion:**
@@ -127,7 +127,7 @@ imprimir_mensaje("Python")
 Estudiando Matemática I en la UNAJ
 Estudiando Python en la UNAJ
 ```
-##### Ejercicio 4: Definir una función denominada “imprimo_fecha” que reciba tres cadenas de caracteres que representan un día, un mes y un año e imprima la fecha de la siguiente manera: “ 21 de septiembre de 2012”.
+##### Ejercicio 4: Definir una función denominada “imprimo_fecha” que reciba tres cadenas de caracteres que representan un día, un mes y un año e imprima la fecha de la siguiente manera: “21 de septiembre de 2012”.
 ```Py
 def imprimir_mensaje(day, month, year):
     print(day + " de " + month + " de " + year)
@@ -159,17 +159,17 @@ print(cuantos_dias("Mayo"))
 No lo hice con la lista porque no lo vi conveniente
 ##### Ejercicio 6: Definir una función que reciba un número como parámetro y mostrar la tabla de multiplicar de dicho número.
 ```Py
-def tablaDeMultiplicarDe(numero):
-    print(str(numero) + " *  1 =  " + str(numero * 1))
-    print(str(numero) + " *  2 =  " + str(numero * 2))
-    print(str(numero) + " *  3 =  " + str(numero * 3))
-    print(str(numero) + " *  4 =  " + str(numero * 4))
-    print(str(numero) + " *  5 =  " + str(numero * 5))
-    print(str(numero) + " *  6 =  " + str(numero * 6))
-    print(str(numero) + " *  7 =  " + str(numero * 7))
-    print(str(numero) + " *  8 =  " + str(numero * 8))
-    print(str(numero) + " *  9 =  " + str(numero * 9))
-    print(str(numero) + " * 10 = " + str(numero * 10))
+def tablaDeMultiplicarDe(número):
+    print(str(número) + " *  1 =  " + str(número * 1))
+    print(str(número) + " *  2 =  " + str(número * 2))
+    print(str(número) + " *  3 =  " + str(número * 3))
+    print(str(número) + " *  4 =  " + str(número * 4))
+    print(str(número) + " *  5 =  " + str(número * 5))
+    print(str(número) + " *  6 =  " + str(número * 6))
+    print(str(número) + " *  7 =  " + str(número * 7))
+    print(str(número) + " *  8 =  " + str(número * 8))
+    print(str(número) + " *  9 =  " + str(número * 9))
+    print(str(número) + " * 10 = " + str(número * 10))
 tablaDeMultiplicarDe(7)
 ```
 ```powershell

@@ -1,7 +1,7 @@
 ![alt text](https://www.unaj.edu.ar/wp-content/uploads/2016/06/logo-unaj-2016-01.jpg)
-# Fundamentos de Informatica
+# Fundamentos de Informática
 
-## Practica 3
+## Practica 4
 ---
 ### PARTE I : Aspectos Conceptuales
 #### 1. ¿Qué son las sentencias condicionales? ¿Para qué se utilizan?
@@ -218,7 +218,7 @@ elif(lado2 > lado1 + lado3):
 elif(lado3 > lado1 + lado2):
     print("Con esos lados no se forma un triangulo!")
 else:
-    print("Genial con esos lados se puede formar un tirangulo")
+    print("Genial con esos lados se puede formar un triangulo")
 ```
 ```powershell
 Ingrese el largo de los 3 lados de un triangulo

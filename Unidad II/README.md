@@ -1,5 +1,5 @@
 ![alt text](https://www.unaj.edu.ar/wp-content/uploads/2016/06/logo-unaj-2016-01.jpg)
-# Fundamentos de Informatica
+# Fundamentos de Informática
 
 ## Practica 2
 ---
@@ -21,19 +21,20 @@ Su entro es 2
 
 ##### Ejercicio 2: Defina la diferencia entre una lista y una tupla. ¿En qué casos utilizarías cada una?
 - lista: Una lista es una estructura de datos lo especial de las listas es que nos permiten almacenar cualquier tipo de valor como enteros, cadenas y hasta otras funciones, y sus datos son mutables, para declarar la misma se deve utilizar corchetes y separar los elementos con una coma`[e0, e1, ...]`, sus metodos son los siguientes:
-    Metodo	    Descripcion
-    `append()`  Agrega un elemento al final de la lista
-    `clear()`   Borra todos los elementos de la lista
-    `copy()`    Regresa una copia de la lista
-    `count()`   Regresa la cantidad de elementos que sean iguales al parametro que se pase
-    `extend()`  Agrega elementos de otra lista(u otro elemento iterable) que se pasa como parametro al final de la lista actual
-    `index()`   Regresa el indice del primer elemento que coincide con el parametro que se le pase
-    `insert()`  Agrega en la posicion que se pase como primer parametro el elemento que se pase como segundo parametro
-    `pop()`     Quita el elemento de una posicion especifica que se pase como parametro
-    `remove()`  Quita el primer elemento que coincida con el parametroq ue se le pase 
-    `reverse()` Invierte los elementos de la lista
-    `sort()`    Ordenta la lista
-Para llamar un metodo devo hacerlo de la siguiente manera
+Método|Descripción
+------|-----------
+`append()`|Agrega un elemento al final de la lista
+`clear()`|Borra todos los elementos de la lista
+`copy()`|Regresa una copia de la lista
+`count()`|Regresa la cantidad de elementos que sean iguales al parametro que se pase
+`extend()`|Agrega elementos de otra lista(u otro elemento iterable) que se pasa como parametro al final de la lista actual
+`index()`|Regresa el indice del primer elemento que coincide con el parametro que se le pase
+`insert()`|Agrega en la posicion que se pase como primer parametro el elemento que se pase como segundo parametro
+`pop()`|Quita el elemento de una posicion especifica que se pase como parametro
+`remove()`|Quita el primer elemento que coincida con el parametroq ue se le pase 
+`reverse()`|Invierte los elementos de la lista
+`sort()`|Ordena la lista
+Para llamar un método debo hacerlo de la siguiente manera
 ```Py
 myList = [1, 4, 2, 3] 
 myList.sort()
@@ -41,10 +42,11 @@ print(myList)
 ```
 
 - Tupla: Una tupla es una estructura de datos inmutables, lo que quiere decir que esta una vez es declarada no puede ser modificada, para declarar la misma se deve utilizar parentesis y separar los elementos con una coma`(e0, e1, ...)`, sus metodos son los siguientes:
-    Metodo      Descripcion
-    `count()`   Regresa la cantidad de elementos que sean iguales al parametro que se pase
-    `index()`   Regresa el indice del primer elemento que coincide con el parametro que se le pase
-Para llamar un metodo devo hacerlo de la siguiente manera
+Método|Descripción
+------|-----------
+`count()`|Regresa la cantidad de elementos que sean iguales al parametro que se pase
+`index()`|Regresa el indice del primer elemento que coincide con el parametro que se le pase
+Para llamar un método debo hacerlo de la siguiente manera
 ```Py
 myList = (1, 4, 2, 3) 
 print(myList.index(4))
@@ -142,7 +144,7 @@ el area del tirangulo es:
 ```
 
 ##### Ejercicio 7: Pedir el diámetro de un círculo y calcular su área y perímetro.  
-##### Recordar que Perímetro = π * Diámetro , Área = π * radio2. Por último, el diámetro = 2 * radio
+##### Recordar que Perímetro = π * Diámetro, Área = π * radio2. Por último, el diámetro = 2 * radio
 ```py
     print("ingrese el diametro de una circunferencia para calcular su area y su perimetro")
     try:
@@ -193,7 +195,7 @@ resto:
 ```
 
 ##### Ejercicio 9: Pedir alto, ancho y largo de una pileta. Calcular el volumen y la cantidad de litros que tiene.  
-##### (saber que 1000 cm3=1 litro)
+##### (Saber que 1000 cm3=1 litro)
 ```py
     print("ingrese alto, ancho y largo de una pileta para calcular su volumen")
     try:
@@ -414,7 +416,7 @@ Hola Hola Hola Hola Hola
 ```
 
 #### -Listas y tuplas
-##### Ejercicio 20:Ejecutar los siguientes códigos. ¿Cuál es el resultado de las siguientes ejecuciones?. Justificar
+##### Ejercicio 20: Ejecutar los siguientes códigos. ¿Cuál es el resultado de las siguientes ejecuciones? Justificar
 ###### a) 
 ```Py
 tupla=(1,True,['a','b','c'], "hola")
@@ -484,7 +486,7 @@ Ejercicio 22
 - Revolución de Mayo 1810 d.C
 - Llegada de los españoles a América 1492 d.C
 - Comienzo de la construcción de la gran Muralla China 214 a.C  
-Yo elegi las listas, pero tambien con tuplas hubiera andado
+Yo elegí las listas, pero también con tuplas hubiera andado
 ```Py
     lista=[["Guerra del Peloponeso", 431, "a.C"],
         ["Revolución de Mayo", 1810, "d.C"],
@@ -608,16 +610,16 @@ aaa
 ```
 `x`toma el valor de `"aaa"`, el triple de la cadena`"a"` porque cuando se usa `""` se refiere a una cadena, y cuando no se usa se refiere a otro elemento declarado
 
-##### Ejercicio 27 : Ejecute el siguiente código y diga qué hace y qué elementos de programación se utilizan: variables, valores, operadores y sentencias.
+##### Ejercicio 27: Ejecute el siguiente código y diga qué hace y qué elementos de programación se utilizan: variables, valores, operadores y sentencias.
 ###### a)
 ```Py
 print ('hola')
 ```
 ```powershell
 ```
-- Que hace?:  
+- Que hace?  
     imprime `hola` en la consola
-- Variables:  
+- Variables  
     No hay
 - Valores  
     `'hola'`
@@ -635,9 +637,9 @@ print (2)
 ```powershell
 2
 ```
-- Que hace?:  
+- Que hace?  
     Imprime el valor `2`
-- Variables:  
+- Variables  
     No hay
 - Valores  
     `2`
@@ -655,9 +657,9 @@ print (nombre)
 Ingrese un nombreJavier
 Javier
 ```
-- Que hace?:  
+- Que hace?  
     Solicita un valor con el prompt`'Ingrese un nombre'` y lo imprime por consola
-- Variables:  
+- Variables  
     `nombre`
 - Valores  
     `'Ingrese un nombre'`
@@ -676,9 +678,9 @@ print (edad)
 Ingrese la edad26
 26
 ```
-- Que hace?:  
+- Que hace?  
     Solicita un valor con el prompt`'Ingrese la edad'` y lo imprime por consola
-- Variables:  
+- Variables  
     `edad`
 - Valores  
     `'Ingrese la edad'`
@@ -695,9 +697,9 @@ print (2*3)
 ```powershell
 6
 ```
-- Que hace?:  
+- Que hace?  
     multiplica los valores `2` y `3` y lo imprime en la consola
-- Variables:  
+- Variables  
     No hay
 - Valores  
     `2`, `3`
@@ -713,9 +715,9 @@ print (4%2)
 ```powershell
 0
 ```
-- Que hace?:  
+- Que hace?  
     Calcula el resto de `4` entre `2` y lo imprime en la consola
-- Variables:  
+- Variables  
     No hay
 - Valores  
     `4`, `2`
@@ -735,9 +737,9 @@ Ingrese un número7
 Ingrese otro número3
 73
 ```
-- Que hace?:  
+- Que hace?  
     Solicita dos valores con los prompt`'Ingrese un número'`, `'Ingrese otro número'`, los concatena y los imprime por consola
-- Variables:  
+- Variables  
     `num1`, `num2`
 - Valores  
     `'Ingrese un número'`, `'Ingrese otro número'`
@@ -759,9 +761,9 @@ Ingrese un número7
 Ingrese otro número3
 10
 ```
-- Que hace?:  
+- Que hace?  
     Solicita dos valores con los prompt`'Ingrese un número'`, `'Ingrese otro número'`, los convierte a enteros, los suma y los imprime por consola
-- Variables:  
+- Variables  
     `num1`, `num2`
 - Valores  
     `'Ingrese un número'`, `'Ingrese otro número'`
