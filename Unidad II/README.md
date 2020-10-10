@@ -20,7 +20,8 @@ Su entro es 2
 ```
 
 ##### Ejercicio 2: Defina la diferencia entre una lista y una tupla. ¿En qué casos utilizarías cada una?
-- lista: Una lista es una estructura de datos lo especial de las listas es que nos permiten almacenar cualquier tipo de valor como enteros, cadenas y hasta otras funciones, y sus datos son mutables, para declarar la misma se deve utilizar corchetes y separar los elementos con una coma`[e0, e1, ...]`, sus metodos son los siguientes:
+- lista: Una lista es una estructura de datos lo especial de las listas es que nos permiten almacenar cualquier tipo de valor como enteros, cadenas y hasta otras funciones, y sus datos son mutables, para declarar la misma se deve utilizar corchetes y separar los elementos con una coma`[e0, e1, ...]`, sus metodos son los siguientes:  
+
 Método|Descripción
 ------|-----------
 `append()`|Agrega un elemento al final de la lista
@@ -42,6 +43,7 @@ print(myList)
 ```
 
 - Tupla: Una tupla es una estructura de datos inmutables, lo que quiere decir que esta una vez es declarada no puede ser modificada, para declarar la misma se deve utilizar parentesis y separar los elementos con una coma`(e0, e1, ...)`, sus metodos son los siguientes:
+
 Método|Descripción
 ------|-----------
 `count()`|Regresa la cantidad de elementos que sean iguales al parametro que se pase
